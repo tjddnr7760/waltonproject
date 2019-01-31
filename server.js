@@ -1,12 +1,12 @@
 var Iamport = require('iamport');
 var iamport = new Iamport({
-  impKey: 'your API key',
-  impSecret: 'your API Secret key'
+  impKey: '3896330295252123',
+  impSecret: 'dOatHlw3dsIxPLLKi0iv7xS1KKjg4gWh47LMshPGKydAkYkCZC76a08VKrbPH87MfSyHaooUXBuhAPTA'
 });
 
 // 아임포트 고유 아이디로 결제 정보를 조회
 iamport.payment.getByImpUid({
-  imp_uid: 'your imp_uid'  
+  imp_uid: 'imp92825396'  
 }).then(function(result){
   // To do
 }).catch(function(error){
